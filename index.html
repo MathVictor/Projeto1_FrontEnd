@@ -5,19 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClimaCiente</title>
 
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#section_causas">Causas</a>
-        <a href="#section_impacto">Impacto</a>
-        <a href="#section_estudantes">Ações Estudantis</a>
-        <a href="#section_sobrenos">Sobre Nós</a>
+        <img class="header_logo" src="./assets/logo/logo-white-text.png">
+        <ul class="header_menu">
+            <li><a class="header_item" href="#section_causas">Causas</a></li>
+            <li><a class="header_item" href="#section_impacto">Impacto</a></li>
+            <li><a class="header_item" href="#section_estudantes">Ações Estudantis</a></li>
+            <li><a class="header_item" href="#section_sobrenos">Sobre Nós</a></li>
+        </ul>
+        <div class="header_login">
+            <h3 class="header_login_text">Faça <span class="login_link"><a href="#">Login</a></span>, ou então</h3>
+            <a class="register_button">CADASTRE-SE!</a>
+        </div>
     </header>
-    <div id="main_banner">
-        <img src="./assets/figs/banner1.jpg" alt="">
-        <h1 id="banner_title">O FUTURO É DECIDIDO PELO QUE FAZEMOS HOJE</h1>
-    </div>
+    <section class="banner">
+        <div class="banner_content">
+            <h1 class="banner_title">O FUTURO É <span>DECIDIDO</span> PELO QUE <span>FAZEMOS HOJE</span></h1>
+        </div>
+    </section>
 
     <section id="section_causas">
         <div class="basic_section">
